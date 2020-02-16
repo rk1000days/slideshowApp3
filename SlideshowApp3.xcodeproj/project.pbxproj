@@ -13,6 +13,7 @@
 		18786D6523F967E8001C6E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18786D6323F967E8001C6E79 /* Main.storyboard */; };
 		18786D6723F967E9001C6E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18786D6623F967E9001C6E79 /* Assets.xcassets */; };
 		18786D6A23F967E9001C6E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18786D6823F967E9001C6E79 /* LaunchScreen.storyboard */; };
+		18786D7223F9781C001C6E79 /* KakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18786D7123F9781C001C6E79 /* KakudaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18786D6623F967E9001C6E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18786D6923F967E9001C6E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18786D6B23F967E9001C6E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18786D7123F9781C001C6E79 /* KakudaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakudaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				18786D5F23F967E8001C6E79 /* SceneDelegate.swift */,
 				18786D6123F967E8001C6E79 /* ViewController.swift */,
 				18786D6323F967E8001C6E79 /* Main.storyboard */,
+				18786D7123F9781C001C6E79 /* KakudaiViewController.swift */,
 				18786D6623F967E9001C6E79 /* Assets.xcassets */,
 				18786D6823F967E9001C6E79 /* LaunchScreen.storyboard */,
 				18786D6B23F967E9001C6E79 /* Info.plist */,
@@ -141,6 +144,7 @@
 				18786D6223F967E8001C6E79 /* ViewController.swift in Sources */,
 				18786D5E23F967E8001C6E79 /* AppDelegate.swift in Sources */,
 				18786D6023F967E8001C6E79 /* SceneDelegate.swift in Sources */,
+				18786D7223F9781C001C6E79 /* KakudaiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kazuhiro.kabashima.SlideshowApp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kazuhiro.kabashima.SlideshowApp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
