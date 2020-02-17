@@ -24,23 +24,22 @@ class KakudaiViewController: UIViewController {
     }
     
         //画像を拡大する
-    //        let resize = CGSize(image.size.width*3.0,image.size.height*3.0)
-    //        UIGraphicsBeginImageContext(resize)
-    //        image.drawInRect(CGRect(0, 0, resize.width, resize.height))
-    //        let reimage = UIGraphicsGetImageFromCurrentImageContext()
-    //        UIGraphicsEndImageContext()
-    //
-    //        let clip = CGRectMake(
-    //            resize.width - image.frame.size.width/2.0,
-    //            resize.height - image.frame.size.height/2.0,
-    //            image.frame.size.width,
-    //            image.frame.size.height)
-    //        let cgimage = CGImageCreateWithImageInRect(reimage.CGImage, clip)
-    //        image.contentMode = UIView.ContentMode.Center
-    //        image.image = UIImage(CGImage: cgimage!)
-    
-    
-    
+//    let resize = CGSize(width: image.size.width * 3.0, height: image.size.height * 3.0)
+//    func UIGraphicsBeginImageContext(_: resize)
+//    func imageDrawInRect(CGRect(0, 0, resize.width, resize.height)){
+//            let reimage = UIGraphicsGetImageFromCurrentImageContext()
+//    }
+//    func UIGraphicsEndImageContext(){
+//            let clip = CGRectMake(
+//                resize.width - image.frame.size.width/2.0,
+//                resize.height - image.frame.size.height/2.0,
+//                image.frame.size.width,
+//                image.frame.size.height)
+//            let cgimage = CGImageCreateWithImageInRect(reimage.CGImage, clip)
+//            image.contentMode = UIView.ContentMode.Center
+//            image.image = UIImage(CGImage: cgimage!)
+//    }
+//    
     /*
     // MARK: - Navigation
 
