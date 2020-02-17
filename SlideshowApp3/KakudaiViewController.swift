@@ -13,6 +13,9 @@ class KakudaiViewController: UIViewController {
     
     @IBOutlet weak var kakudaiImage: UIImageView!
     
+    var image: UIImage!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
