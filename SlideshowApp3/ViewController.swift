@@ -16,15 +16,20 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "result", sender: nil)
     }
     
+    var timer: Timer!
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let kakudaiViewController:KakudaiViewController = segue.destination as! KakudaiViewController
         kakudaiViewController.image = imageView.image
         timer?.invalidate()
+            self.timer = nil
+            play.setTitle("再生", for: UIControl.State())
+            fwd.isEnabled = true
+            back.isEnabled = true
     }
     
     var indexNum = 0
     
-    var timer: Timer!
     
     
     let photoArray = [UIImage(named: "National Studium") ,UIImage(named: "Oita Dome") ,UIImage(named: "Kumamoto Studium")]
@@ -65,8 +70,8 @@ class ViewController: UIViewController {
         }
         self.imageView.image = photoArray[indexNum]
     }
+  
     //「再生／停止」ボタン
-    
     @IBOutlet weak var play: UIButton!
     //「停止」ボタンを押す
     @IBAction func switchTap(_ sender: Any) {
