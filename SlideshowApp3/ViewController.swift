@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let kakudaiViewController:KakudaiViewController = segue.destination as! KakudaiViewController
         kakudaiViewController.image = imageView.image
-        timer.invalidate()
+        timer?.invalidate()
     }
     
     var indexNum = 0
